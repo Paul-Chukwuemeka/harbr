@@ -250,7 +250,7 @@ function MainApp() {
         </Box>
         <Box justifyContent="space-between" width={50} paddingX={2} marginTop={0}>
           <Text color="#00E5FF">port management</Text>
-          <Text color="gray">v1.2.0</Text>
+          <Text color="gray">v1.3.1</Text>
         </Box>
       </Box>
 
