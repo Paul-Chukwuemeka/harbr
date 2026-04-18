@@ -3,6 +3,7 @@
   "version": "1.4.0",
   "description": "Harbr is a CLI tool for managing ports and processes.",
   "main": "index.tsx",
+  "preferGlobal": true,
   "bin": {
     "harbr": "./dist/harbr.js"
   },
