@@ -1,6 +1,6 @@
 {
   "name": "@maskeddev/harbr",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "Harbr is a CLI tool for managing ports and processes.",
   "main": "index.tsx",
   "preferGlobal": true,
