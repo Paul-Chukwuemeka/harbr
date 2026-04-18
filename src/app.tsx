@@ -240,17 +240,15 @@ function MainApp() {
       <Box flexDirection="column" marginBottom={0} gap={0.5} flexShrink={0}>
         <Box>
           <Text color="#FF0080" bold>
-            {`  _    _          _____  ____  _____  
- | |  | |   /\\   |  __ \\|  _ \\|  __ \\ 
- | |__| |  /  \\  | |__) | |_) | |__) |
- |  __  | / /\\ \\ |  _  /|  _ <|  _  / 
- | |  | |/ ____ \\| | \\ \\| |_) | | \\ \\ 
- |_|  |_/_/    \\_\\_|  \\_\\____/|_|  \\_\\`}
+            {`  _             _        
+ | |_  __ _ _ _| |__ _ _ 
+ | ' \\/ _\` | '_| '_ \\ '_|
+ |_||_\\__,_|_| |_.__/_|  `}
           </Text>
         </Box>
         <Box justifyContent="space-between" width={50} paddingX={2} marginTop={0}>
           <Text color="#00E5FF">port management</Text>
-          <Text color="gray">v1.3.1</Text>
+          <Text color="gray">v1.4.0</Text>
         </Box>
       </Box>
 
@@ -309,9 +307,9 @@ function MainApp() {
           const isKilled = killedPids.has(group.pid);
           
           let marker = "  ";
-          if (isKilled) marker = "✘ ";
-          else if (isSelected) marker = "➜ ";
-          else if (isMarked) marker = "◈ ";
+          if (isKilled) marker = "✖ ";
+          else if (isSelected) marker = "❯ ";
+          else if (isMarked) marker = "◉ ";
           
           const titleColor = isKilled ? "gray" : isMarked ? "#FFD700" : isSelected ? "#00FF41" : "#FF0080";
 
