@@ -23,7 +23,6 @@ test.ts
 test2.ts
 test-ink.tsx
 output.json
-test/   
 
 # Environment variables
 .env
