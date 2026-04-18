@@ -25,7 +25,7 @@
 The easiest way to use **harbr** is to install it globally via npm:
 
 ```bash
-npm install -g harbr
+npm install -g @maskeddev/harbr
 ```
 After installation, simply run `harbr` from anywhere in your terminal.
 
@@ -71,8 +71,8 @@ If you wish to contribute or modify the codebase, you can set it up locally:
 ## Output Indicators
 
 - `❯` : Currently selected process block
-- `•` : Marked process block
-- `✗` : Process killed
+- `◉` : Marked process block
+- `✖` : Process killed
 - `⚠` (Red Warning) : Indicates the port is exposed externally (listening on `0.0.0.0`, `*`, or `::`)
 
 ## License
